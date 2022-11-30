@@ -1,6 +1,6 @@
 {
   "name": "@philippdormann/mobiledevices",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "repository": "https://github.com/philippdormann/mobiledevices",
   "author": "Philipp Dormann <hi@philippdormann.de>",
