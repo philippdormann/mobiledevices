@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "version": "0.0.1",
+  "main": "usage.js",
+  "dependencies": {
+    "@philippdormann/mobiledevices": "workspace:*"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon usage.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
