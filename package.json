@@ -9,6 +9,6 @@
   "type": "module",
   "devDependencies": {
     "bumpp": "^9.4.0",
-    "zx": "^7.2.3"
+    "zx": "^8.1.2"
   }
 }
