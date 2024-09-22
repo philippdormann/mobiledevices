@@ -22,3 +22,5 @@ console.log(getDeviceInfoByIdentifier("iPhone11,8"));
 { brand: 'OnePlus', name: 'OnePlus 7 Pro', device: 'OnePlus7Pro', model: 'GM1913' }
 { brand: 'Apple', name: 'iPhone XR', device: 'iPhone XR', model: 'iPhone11,8' }
 ```
+## StackBlitz Example Code
+https://stackblitz.com/edit/vitejs-vite-levycs?file=main.js
