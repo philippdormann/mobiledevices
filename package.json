@@ -4,11 +4,14 @@
   "scripts": {
     "release": "bumpp package.json packages/*/package.json --all",
     "ci:publish": "zx scripts/publish.js",
+    "build": "node build.js",
     "dev": "pnpm -C packages/example run dev"
   },
   "type": "module",
   "devDependencies": {
     "bumpp": "^9.5.2",
+    "got": "^14.4.2",
+    "papaparse": "^5.4.1",
     "zx": "^8.1.8"
   }
 }

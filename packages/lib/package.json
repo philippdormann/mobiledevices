@@ -12,9 +12,5 @@
       "import": "./index.js"
     },
     "./*": "./*"
-  },
-  "dependencies": {
-    "@philippdormann/appledevices": "^1.0.1",
-    "android-device-list": "^1.2.10"
   }
 }
