@@ -14,7 +14,7 @@
     "./*": "./*"
   },
   "dependencies": {
-    "@philippdormann/appledevices": "^0.0.6",
+    "@philippdormann/appledevices": "^1.0.1",
     "android-device-list": "^1.2.10"
   }
 }
