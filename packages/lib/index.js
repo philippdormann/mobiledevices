@@ -17,3 +17,10 @@ export function getDeviceInfoByIdentifier(identifier) {
     }
     return device;
 }
+export function getDeviceNameFromIdentifier(identifier) {
+    const device = getDeviceInfoByIdentifier(identifier);
+    if (device) {
+        return device.name;
+    }
+    return identifier;
+}
