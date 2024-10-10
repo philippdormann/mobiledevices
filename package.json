@@ -9,7 +9,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "bumpp": "^9.5.2",
+    "bumpp": "^9.7.1",
     "got": "^14.4.2",
     "papaparse": "^5.4.1",
     "zx": "^8.1.8"
