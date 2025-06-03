@@ -11,7 +11,7 @@
   "devDependencies": {
     "bumpp": "^10.1.1",
     "got": "^14.4.7",
-    "papaparse": "^5.5.2",
+    "papaparse": "^5.5.3",
     "zx": "^8.5.4"
   }
 }
