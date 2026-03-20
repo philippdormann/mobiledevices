@@ -32,22 +32,17 @@ got
 			alldevices.push({ brand, name, device, model });
 		});
 		got
-			.get(
-				"https://gist.githubusercontent.com/adamawolf/3048717/raw/bd838e3254565a8da730873667e5d39902fffe6e/Apple_mobile_device_types.txt"
-			)
-			.text()
-			.then((res) => {
-				res = res.replaceAll("\n\n", "\n");
-				const devices = res.split("\n");
+			.get("https://api.appledb.dev/device/main.json")
+			.json()
+			.then((devices) => {
 				devices.forEach((d) => {
-					const info = d.split(" : ");
 					const brand = "Apple";
-					let name = info[1];
+					let name = d.name;
 					if (name.startsWith(`${brand} `)) {
 						name = name.replace(`${brand} `, "");
 					}
-					let device = info[0];
-					let model = info[0];
+					const device = d.key;
+					const model = d.key;
 					alldevices.push({ brand, name, device, model });
 				});
 				let filecontent = fs.readFileSync("./packages/lib/index.js", {
